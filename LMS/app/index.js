@@ -39,9 +39,9 @@ export default function Landing() {
           >
             <Text className="text-white text-lg font-medium">Get Started</Text>
           </TouchableOpacity>
-          <TouchableOpacity className="bg-black px-6 py-3 rounded-lg">
+          {/* <TouchableOpacity className="bg-black px-6 py-3 rounded-lg">
             <Text className="text-white text-lg font-medium">Learn More</Text>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
       </View>
 
