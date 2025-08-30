@@ -4,7 +4,7 @@ import Icon from "react-native-vector-icons/MaterialIcons";
 import { useRouter } from "expo-router";
 
 export default function Landing() {
-  const router = useRouter(); // useRouter replaces navigation
+  const router = useRouter(); 
 
   return (
     <ScrollView className="flex-1 bg-white">
@@ -51,7 +51,6 @@ export default function Landing() {
         </Text>
       </View>
 
-      {/* Banner */}
       <View className="relative h-80 w-full">
         <Image
           source={require("../assets/image.png")}
@@ -74,7 +73,6 @@ export default function Landing() {
         </View>
       </View>
 
-      {/* Features */}
       <View className="py-20 bg-white items-center px-6">
         <Text className="text-3xl font-bold text-green-600 text-center">
           Everything You Need for Your Library
@@ -102,7 +100,6 @@ export default function Landing() {
         </View>
       </View>
 
-      {/* Why Choose */}
       <View className="flex-col lg:flex-row px-6 py-16 bg-gray-50 space-y-8">
         <View className="flex-1">
           <Text className="text-3xl font-bold text-[#4AB5BB]">
@@ -136,7 +133,6 @@ export default function Landing() {
 
       
 
-      {/* CTA */}
       <View className="items-center text-center py-20 bg-gray-100 px-6">
         <Text className="text-3xl font-bold text-[#4AB5BB] text-center">
           Ready To Transform Your Library?
@@ -164,7 +160,6 @@ export default function Landing() {
   );
 }
 
-// Card Component
 function Card({ icon, title, subtitle }) {
   return (
     <View className="bg-white rounded-lg p-6 shadow-md border w-80">
